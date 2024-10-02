@@ -140,7 +140,7 @@ writeRaster(
   overwrite = TRUE)
 
 writeRaster(
-  elevation_usa,
+  hillshade_usa,
   'rasters/processed/hillshade_usa.tif',
   overwrite = TRUE)
 
