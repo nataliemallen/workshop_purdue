@@ -11,11 +11,11 @@ editor: visual
 
 ## GitHub Workshop
 
-This workshop is intended to show common methods used to clone and upload repositories on GitHub. We will use R code to download occurrence data, process and clean spatial data, create static and interactive maps, and create documents using RStudio. CCB folks can work individually or in pairs. We will see just a glimpse of ***Tidyverse***, ***sf*** and ***Terra*** functions; however feel to ask for specific ways to analyze/clean data.
+This workshop is intended to show common methods used in ecology to download occurrence data, process and clean spatial data, create static and interactive maps, and create documents using RStudio. In addition, we will use GitHub to clone and upload repositories. Basic experience in R is preferred. The R code and examples will be provided by the instructor but the students are encouraged to bring their own data. Students can work individually or in pairs. Because this is a short workshop, we will see just a glimpse of ***Tidyverse***, ***sf*** and ***Terra*** functions; however classes are interactive and the students are free to ask for specific ways to analyze/clean data. We will see just a glimpse of
 
 ## Software
 
-Please use the links provoded to download the latest versions of
+Please use the links provided to download the latest versions of
 
 1.  [Git](https://git-scm.com/download/)
 2.  [R](https://cran.rstudio.com/)
@@ -66,6 +66,8 @@ remotes::install_github("ropensci/scrubr")
 ```
 
 ## 2) Accounts
+
+We will create different types of static and interactive maps map and graphs describing the distribution of the spring pepper (*Pseudacris crucifer*) https://inherpatlas.org/species/pseudacris_crucifer in the US and Indiana.
 
 Open an account and set your profile in the following websites:
 

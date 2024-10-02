@@ -1,49 +1,70 @@
 ---
 title: "Workshop"
 author: "Hector Zumbado"
-format: html
+format: 
+  html:
+    embed-resources: true
 editor: visual
 ---
 
 ## Goal
 
-We will create different static maps, interactive maps map and graphs describing the distribution of the desert sand verbena ([*Abronia villosa*](https://www.calflora.org/app/taxon?crn=21)) in the US, California, and Riverside County.
+We will create different types of static and interactive maps map and graphs describing the distribution of the spring pepper ([*Pseudacris crucifer*](https://inherpatlas.org/species/pseudacris_crucifer)) in the US and Indiana.
+
+![Spring pepper (*Pseudacris crucifer*; Hylidae)](spring_pepper.jpg){fig-align="left"}
 
 Steps
 
-1.   Tutorial 1: how to create and configure R projects with '***renv***' (demonstration).
+1.  Tutorial 1: how to create and configure R projects with '***renv***' and ***'Github'*** (demonstration).
 
-2.   Tutorial 2: Setup GBIF account in RStudio.
+2.  Tutorial 2: Setup GitHub account in RStudio. Use document 'Set GitHub in RStudio'.
 
-3.   Tutorial 3: Setup GitHub account in R studio. Use document 'Set GitHub in RStudio'.
-
-4.  how to create and configure R projects with '***renv***' from the terminal (demonstration).
-
-5.  Create new project in R studio using GitHub and renv boxes.
+3.  Create new project in R studio using GitHub and renv boxes.
 
     Create a new project in your workshop folder.
 
-    Check GitHub and renv boxes.
+    Copy r script 'structure' to your project. Modify if needed. Run the script to create the folders.
 
-    Copy and paste the structure script within your project. Run the script.
+    ```{r structure}
+    #| eval: false
 
-## Quarto
+    folders <- c('data/raw',
+                 'data/processed',
+                 'shapefiles',
+                 'shapefiles/processed',
+                 'rasters',
+                 'rasters/processed',
+                 'scripts',
+                 'outputs/figures',
+                 'docs')
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+        sapply(folders,
+           FUN = dir.create,
+           recursive = TRUE)
+    ```
 
-## Running Code
+4.  Open a new file and write library(rgbif).
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+    Save file as 00-download_data.
 
-```{r}
-1 + 1
-```
+    Restart R project and install using renv.
 
-You can add options to executable code like this
+    Check `renv::status()` and create snapshop with `renv::snapshot()`.
 
-```{r}
-#| echo: false
-2 * 2
-```
+    Create a project with the Demo1 name in GitHub
 
-The `echo: false` option disables the printing of code (only output is displayed).
+    Link Rstudio and GitHub with SSH protocol.
+
+    Check remote connection and branch.
+
+    Stage, commit, and push repository to github.
+
+5.  Fork [project](https://github.com/hzumbado/workshop_purdue)
+
+6.  Keep the same name
+
+7.  Clone project to your computer using the version control and SSH protocol
+
+8.  Save project (workshop folder)
+
+    Check remote connection and branch in the terminal

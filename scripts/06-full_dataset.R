@@ -34,6 +34,13 @@ full_dataset <-
       c(id, species, year, source),
       ~ as_factor(.x)))
 
-full_dataset |> 
-  write_csv('data/processed/occs_clean.csv')
+dir.create('data/processed/final')
 
+my_species <- 'Pseudacris_crucifer'
+
+full_dataset |> 
+  write_csv(
+    paste0(
+    'data/processed/final/',
+    my_species,
+    '_occs_clean.csv'))

@@ -8,8 +8,14 @@ library(tidyverse)
 
 # data --------------------------------------------------------------------
 
+my_species <- 'Pseudacris_crucifer'
+
 inat_pre_clean <- 
-  read_csv('data/raw/pseudacris_inat_raw.csv') |>
+  read_csv(
+    paste0(
+          'data/raw/',
+          my_species,
+          '_inat_raw.csv')) |>
   select(
     id,
     species = scientific_name,
@@ -48,14 +54,14 @@ inat_clean <-
     lon = 'x',
     lat = 'y',
     tests = c(
-      "capitals", 
-      "centroids",
-      "equal", 
-      "gbif", 
-      "institutions", 
-      "outliers", 
-      "seas", 
-      "zeros"),
+      'capitals', 
+      'centroids',
+      'equal', 
+      'gbif', 
+      'institutions', 
+      'outliers', 
+      'seas', 
+      'zeros'),
     value = 'clean') |> 
   coord_incomplete() |> 
   coord_imprecise() |> 
@@ -64,5 +70,9 @@ inat_clean <-
 
 # save data ---------------------------------------------------------------
 
-inat_clean |> 
-  write_csv('data/processed/inat_clean.csv')
+inat_clean |>
+  write_csv(
+    paste0(
+      'data/processed/',
+      my_species,
+      '_inat_clean.csv'))

@@ -16,6 +16,8 @@ inat_metadata <-
     meta = TRUE) |> 
   pluck('meta')
 
+# download data
+
 inat_data <-
   get_inat_obs(
     query = 'Pseudacris crucifer',
@@ -27,5 +29,12 @@ inat_data <-
 
 # save data ---------------------------------------------------------------
 
-inat_data |> 
-  write_csv('data/raw/pseudacris_inat_clean.csv')
+my_species <- 'Pseudacris_crucifer'
+
+inat_data |>
+  write_csv(
+    paste0(
+      'data/raw/',
+      my_species,
+      '_inat_raw.csv'))
+  

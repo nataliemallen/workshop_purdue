@@ -145,7 +145,7 @@ Set account on github.com
 
 7- Create an empty repository in GitHub. Profile. Repositories. New (same name of R project). Set public or private
 
-8- Copy SSH from quick setup tab 
+8- Copy SSH from quick setup tab
 
 9- Check all changes have been committed
 
@@ -171,7 +171,7 @@ Set account on github.com
 
 `git config --global init.defaultBranch main`: to set a main branch (directory)
 
-`git config --global –list`: to see list of items/configuration
+`git config --global --list`: to see list of items/configuration
 
 `git config --global core.autocrlf true`
 

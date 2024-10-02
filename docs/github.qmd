@@ -33,20 +33,26 @@ Make sure to have an account on GitHub
 
 4.  Open new terminal and run the following lines
 
-git --version
+`git --version`
 
-git config --global --list
+`git config --global --list`
 
-git config --global init.defaultBranch main
+`git config --global init.defaultBranch main`
 
-git config --global core.autocrlf true
+`git config --global core.autocrlf true`
 
-git config --global user.email "email" #add private GitHub email
+`git config --global user.email "email"` #add private GitHub email
 
-git config --global user.name "username" #add Github username
+`git config --global user.name "username"` #add Github username
 
 If you added ssh key run the following lines
 
-`-T git@github.com`
+`ssh -T git@github.com`
 
 Confirm fingerprint
+
+`git remote add <name> <SSH-url>`: connect remotely with GitHub repository
+
+`git remote -v`: check remote connection
+
+`git push -u origin main`: push repository to GitHub

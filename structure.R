@@ -3,9 +3,9 @@ folders <- c('data/raw',
              'shapefiles',
              'shapefiles/processed',
              'rasters',
+             'rasters/processed',
              'scripts',
              'outputs/figures',
-             'outputs/tables',
              'docs')
 
 sapply(folders,
