@@ -10,6 +10,7 @@ library(tidyverse)
 
 #total of observations
 
+#see how many observations exist in inat for this species
 inat_metadata <- 
   get_inat_obs(
     query = 'Pseudacris crucifer', 

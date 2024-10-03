@@ -106,6 +106,12 @@ id,datasetKey,species,x,y,accuracy,year,institution,source
 786338755,76dd8f0d-2daa-4a69-9fcd-55e04230334a,Pseudacris crucifer,-79.28,41.23,250,1981,CM,gbif
 657480088,7a25f7aa-03fb-4322-aaeb-66719e1a9527,Pseudacris crucifer,-71.2225,43.6964,1933,1988,LACM,gbif
 657479573,7a25f7aa-03fb-4322-aaeb-66719e1a9527,Pseudacris crucifer,-72.55,42.6708,2964,1986,LACM,gbif
+4948395580,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.4619,38.5346,10,2019,USNM,gbif
+4948393344,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.7044,38.6897,402.34,2019,USNM,gbif
+4948392573,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-82.356,38.3133,255.89,1988,USNM,gbif
+4948180166,26098c25-8f7f-4c71-97ac-1d3db181c65e,Pseudacris crucifer,-82.341928,38.9762026,193.12,1985,USNM,gbif
+4948174966,26098c25-8f7f-4c71-97ac-1d3db181c65e,Pseudacris crucifer,-90.4748,30.4394,4211.65,1988,USNM,gbif
+4948159577,26098c25-8f7f-4c71-97ac-1d3db181c65e,Pseudacris crucifer,-79.8343,33.2837,429.7,1988,USNM,gbif
 4904884399,e9e6abed-f507-497c-aa34-29b05227f4e8,Pseudacris crucifer,-83.699032,42.319888,25,2024,NBM,gbif
 4898362308,861d3d64-f762-11e1-a439-00145eb45e9a,Pseudacris crucifer,-72.735,41.303,100,2024,YPM,gbif
 4849525313,e9e6abed-f507-497c-aa34-29b05227f4e8,Pseudacris crucifer,-66.056114,45.296036,10,2024,NBM,gbif
@@ -692,6 +698,8 @@ id,datasetKey,species,x,y,accuracy,year,institution,source
 1324151262,832b8188-f762-11e1-a439-00145eb45e9a,Pseudacris crucifer,-84.9876,30.2642,50,2013,UF,gbif
 1324131978,832b8188-f762-11e1-a439-00145eb45e9a,Pseudacris crucifer,-85.97904,37.24355,50,2005,UF,gbif
 1324127372,832b8188-f762-11e1-a439-00145eb45e9a,Pseudacris crucifer,-82.4415,29.7294,1800,2005,UF,gbif
+1324099852,832b8188-f762-11e1-a439-00145eb45e9a,Pseudacris crucifer,-82.096913,28.796333,800,1991,UF,gbif
+1324099824,832b8188-f762-11e1-a439-00145eb45e9a,Pseudacris crucifer,-82.173706,28.844124,40,1990,UF,gbif
 1324090540,832b8188-f762-11e1-a439-00145eb45e9a,Pseudacris crucifer,-83.823481,30.516543,800,1988,UF,gbif
 1322988420,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.7799,37.8058,347.62,1980,USNM,gbif
 1322975621,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.83,37.67,563.27,1981,USNM,gbif
@@ -702,7 +710,6 @@ id,datasetKey,species,x,y,accuracy,year,institution,source
 1322944747,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-76.4,36.87,177.03,1980,USNM,gbif
 1322939694,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-78.16,37.79,337.96,1983,USNM,gbif
 1322895026,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.39,38.6,1248.15,1988,USNM,gbif
-1322894969,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-90.4748,30.4394,4211.65,1988,USNM,gbif
 1322863865,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-76.6616,36.8393,3690.23,1983,USNM,gbif
 1322845950,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-76.14,36.75,193.12,1987,USNM,gbif
 1322832941,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-78.5799,38.6918,395.9,1990,USNM,gbif
@@ -713,7 +720,6 @@ id,datasetKey,species,x,y,accuracy,year,institution,source
 1322742336,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-83.1755,36.7298,991.36,1984,USNM,gbif
 1322702309,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-76.9402,37.742,717.77,1983,USNM,gbif
 1322630585,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.67,37.52,981.7,1980,USNM,gbif
-1322620378,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-82.356,38.3133,255.89,1988,USNM,gbif
 1322590012,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.18,37.33,1174.82,1981,USNM,gbif
 1322589065,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-78.76,37.51,337.96,1980,USNM,gbif
 1322577571,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-78.57,37.55,177.03,1980,USNM,gbif
@@ -723,7 +729,6 @@ id,datasetKey,species,x,y,accuracy,year,institution,source
 1322492944,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.51,37.64,46.37,1983,USNM,gbif
 1322460585,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.55,37.7,96.56,1980,USNM,gbif
 1322420289,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.61,37.52,177.03,1980,USNM,gbif
-1322404770,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-82.341928,38.9762026,193.12,1985,USNM,gbif
 1322313298,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.065,36.9746,991.36,1980,USNM,gbif
 1322284886,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-76.21,36.68,2011.68,1983,USNM,gbif
 1322266313,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.53,37.7,156.36,1980,USNM,gbif
@@ -735,7 +740,6 @@ id,datasetKey,species,x,y,accuracy,year,institution,source
 1322032194,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.66,37.52,156.38,1983,USNM,gbif
 1321994007,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-82.7575,36.7368,972.04,1985,USNM,gbif
 1321959979,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-76.18,36.73,177.03,1984,USNM,gbif
-1321929704,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-79.8343,33.2837,429.7,1988,USNM,gbif
 1321868640,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.52,37.63,531.08,1980,USNM,gbif
 1321662823,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-76.6624,37.2514,267.15,1985,USNM,gbif
 1321659151,821cc27a-e3bb-4bc5-ac34-89ada245069d,Pseudacris crucifer,-77.65,37.75,289.68,1980,USNM,gbif

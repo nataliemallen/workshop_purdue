@@ -19,10 +19,11 @@ key
 gbif_download <- 
   occ_download(
     pred('taxonKey', key), 
-    format = 'SIMPLE_CSV')
-    # user = NULL,
-    # pwd = NULL,
-    # email = NULL)
+    format = 'SIMPLE_CSV',
+    user = 'nataliemallen',
+    pwd = 'Biscuit2022!',
+    email = 'nataliemarionallen@gmail.com')
+
 
 gbif_download
 
@@ -40,6 +41,8 @@ read_rds(
   'data/raw/',
   my_species,
   '_key.rds'))
+#doi 10.15468/dl.feam92
+#download key 0039305-240906103802322
 
 # check download processing -----------------------------------------------
 
@@ -52,9 +55,10 @@ data <-
     overwrite = TRUE) |> 
   occ_download_import()
 
+###alternative 
 # data <- 
 #   occ_download_get(
-#     '0037423-240906103802322',
+#     '0039305-240906103802322',
 #     path = 'data/raw',
 #     overwrite = TRUE)
 

@@ -43,7 +43,7 @@ inat_pre_clean2 <-
   filter(x < 0, y > 0) |> 
   filter(  
     year >= 1980,
-    accuracy <= 500,
+    accuracy <= 5000,
     coordinates_obscured == 'FALSE') |>
   mutate(source = 'INaturalist') |> 
   distinct(x, y, year, .keep_all = TRUE)

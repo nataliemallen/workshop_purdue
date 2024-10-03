@@ -18,7 +18,11 @@ gbif_raw <-
       'data/raw/',
       my_species,
       '_gbif_raw.csv'))
-  
+
+#view columns
+names(gbif_raw)
+
+#choose columns we want and rename some of them 
 gbif_pre_clean <- 
   gbif_raw |> 
   select(
@@ -32,6 +36,11 @@ gbif_pre_clean <-
     year = year, 
     institution = institutionCode)
 
+#remove missing data by filtering any rows with missing data in any column
+#ensures x is negative and y is positive
+#years from 1980-2024
+#accuracy with error less than 5000
+#removes duplicates with distinct function
 gbif_pre_clean2 <- 
   gbif_pre_clean |>
   filter(
@@ -94,17 +103,19 @@ derived_data <-
     .by = datasetKey)
 
 # test derived dataset
-   
+
+#use source url from github path and dowload doi from 02-gbif.R
 derived_dataset_prep(
   citation_data = derived_data,
   title = 'Derived Dataset Pseudacris crucifer',
   description = 
     'This data was filtered using CoordinateCleaner and scrubr',
   source_url = 
-    'https://github.com/hzumbado/workshop_purdue/data/processed/gbif_clean.csv',
-  gbif_download_doi = '10.15468/dl.r9hsxv')
+    'https://github.com/nataliemallen/demo_git/tree/main/data/processed/gbif_clean.csv',
+  gbif_download_doi = '10.15468/dl.feam92')
 
 # If output looks ok, run derived_dataset 
+# add user and pwd if .Renviron doesn't work
 
 derived_dataset(
   citation_data = derived_data,
@@ -112,5 +123,7 @@ derived_dataset(
   description = 
     'This data was filtered using CoordinateCleaner and scrubr',
   source_url = 
-    'https://github.com/hzumbado/workshop_purdue/data/processed/gbif_clean.csv',
-  gbif_download_doi = '10.15468/dl.r9hsxv')
+    'https://github.com/nataliemallen/demo_git/tree/main/data/processed/gbif_clean.csv',
+  gbif_download_doi = '10.15468/dl.feam92',
+  user = 'nataliemallen',
+  pwd = 'Biscuit2022!')
